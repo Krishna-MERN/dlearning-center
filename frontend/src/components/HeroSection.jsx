@@ -16,9 +16,9 @@ const HeroSection = () => {
       // loop: true,
     });
 
-    return () => {
-      typed.destroy(); // Clean up Typed instance
-    };
+   // return () => {
+    //  typed.destroy(); // Clean up Typed instance
+    //};
   }, []);
 
     return (

@@ -1,0 +1,30 @@
+// import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+// import ReactDetail from "./pages/TechDetail/ReactDetail";
+import Java from "./pages/TechDetail/Java";
+import Python from "./pages/TechDetail/Python";
+import C from "./pages/TechDetail/C";
+import Footer from "./components/Footer";
+// import TechDetail from "./pages/TechDetail";  // we'll create this next
+
+const App = () => {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/tech/react" element={<ReactDetail />} /> */}
+         <Route path="/tech/java" element={<Java />} />
+        <Route path="/tech/python" element={<Python />} />
+        <Route path="/tech/C" element={<C />} />
+        
+        {/* <Route path="/tech/:techName" element={<TechDetail />} /> */}
+      </Routes>
+      <Footer />
+    </Router>
+  );
+};
+
+export default App;

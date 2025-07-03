@@ -1,0 +1,14 @@
+.tech-button {
+  border: none;
+  color: #ffffff;
+  padding: 16px;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  width: 100%;
+}
+
+.tech-button:hover {
+  transform: scale(1.05);
+}

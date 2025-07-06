@@ -6,7 +6,9 @@ import Home from "./pages/Home";
 import Java from "./pages/TechDetail/Java";
 import Python from "./pages/TechDetail/Python";
 import C from "./pages/TechDetail/C";
+import Javascript from "./pages/TechDetail/Javascript";
 import Footer from "./components/Footer";
+import Backtotop from "./components/Backtotop";
 // import TechDetail from "./pages/TechDetail";  // we'll create this next
 
 const App = () => {
@@ -19,9 +21,11 @@ const App = () => {
          <Route path="/tech/java" element={<Java />} />
         <Route path="/tech/python" element={<Python />} />
         <Route path="/tech/C" element={<C />} />
+        <Route path="/tech/Javascript" element={<Javascript/>} />
         
         {/* <Route path="/tech/:techName" element={<TechDetail />} /> */}
       </Routes>
+     <Backtotop />
       <Footer />
     </Router>
   );

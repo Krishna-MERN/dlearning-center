@@ -1,0 +1,102 @@
+
+
+:root {
+  --primary-color: #4b6cb7;
+  --secondary-color: #182848;
+  --note-color: #fff3cd;
+  --note-border: #ffeeba;
+  --code-bg: #f4f4f4;
+  --code-border: #ddd;
+}
+.tutorialarea{
+  margin: 50px;
+}
+
+.tutorial-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  padding: 24px;
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADINGS */
+.heading {
+  margin-top: 0;
+  color: #000;
+  color: var(--primary-color);
+}
+
+.subheading {
+  margin-top: 8px;
+  color: var(--secondary-color);
+}
+
+/* PARAGRAPHS */
+.description {
+  color: #555;
+  line-height: 1.7;
+}
+
+/* IMAGES */
+.image {
+  max-width: 100%;
+  margin-top: 12px;
+  border-radius: 6px;
+  max-height: 200px;
+  border: 1px solid #eee;
+}
+
+/* IMPORTANT NOTE */
+.note {
+  background-color: var(--note-color);
+  border: 1px solid var(--note-border);
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 20px;
+  color: #856404;
+  font-weight: 500;
+}
+
+/* LISTS */
+.list {
+  margin-top: 12px;
+  padding-left: 20px;
+}
+
+.list li {
+  margin-bottom: 6px;
+}
+
+/* CODE BLOCKS WITH COPY BUTTON */
+.code-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+.code {
+  background-color: var(--code-bg);
+  border: 1px solid var(--code-border);
+  border-radius: 6px;
+  padding: 15px;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 0.95rem;
+}
+
+/* LINKS */
+.link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #fff;
+  background-color: var(--primary-color);
+  padding: 10px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: var(--secondary-color);
+}

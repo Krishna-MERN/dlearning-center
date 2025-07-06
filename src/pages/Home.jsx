@@ -5,7 +5,7 @@ import "./styles/Home.css";
 import CommentForm from "../components/CommentForm";
 
 const technologies = [
-  { name: "React", color: "#61DAFB" },
+  {  name: "React", color: "#61DAFB" },
   { name: "Swift", color: "#f89820" },
   { name: "Kotlin", color: "#3776AB" },
   { name: "Express", color: "#3C873A" },

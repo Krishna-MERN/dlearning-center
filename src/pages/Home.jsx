@@ -6,8 +6,8 @@ import CommentForm from "../components/CommentForm";
 
 const technologies = [
   {  name: "React", color: "#61DAFB" },
-  { name: "Swift", color: "#f89820" },
-  { name: "Kotlin", color: "#3776AB" },
+  { name: "ComputerShortcuts", color: "#f89820" },
+  { name: "VScodeshortcut", color: "#3776AB" },
   { name: "Express", color: "#3C873A" },
   { name: "ES6", color: "#4DB33D" },
   { name: "MATLAB", color: "#E34C26" },

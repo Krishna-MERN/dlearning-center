@@ -4,11 +4,12 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 // import ReactDetail from "./pages/TechDetail/ReactDetail";
 import Java from "./pages/TechDetail/Java";
-import Python from "./pages/TechDetail/Python";
+import ComputerShortcuts from "./pages/TechDetail/ComputerShortcuts";
 import C from "./pages/TechDetail/C";
 import Javascript from "./pages/TechDetail/Javascript";
 import Footer from "./components/Footer";
 import Backtotop from "./components/Backtotop";
+import VScodeshortcut from "./pages/TechDetail/VScodeshortcut";
 // import TechDetail from "./pages/TechDetail";  // we'll create this next
 
 const App = () => {
@@ -19,9 +20,10 @@ const App = () => {
         <Route path="/" element={<Home />} />
         {/* <Route path="/tech/react" element={<ReactDetail />} /> */}
          <Route path="/tech/java" element={<Java />} />
-        <Route path="/tech/python" element={<Python />} />
+        <Route path="/tech/ComputerShortcuts" element={<ComputerShortcuts />} />
         <Route path="/tech/C" element={<C />} />
         <Route path="/tech/Javascript" element={<Javascript/>} />
+        <Route path="/tech/VScodeshortcut" element={<VScodeshortcut/>}/>
         
         {/* <Route path="/tech/:techName" element={<TechDetail />} /> */}
       </Routes>

@@ -9,7 +9,9 @@
   --code-border: #ddd;
 }
 .tutorialarea{
-  margin: 50px;
+  margin: 50px auto;
+  max-width: 800px;
+
 }
 
 .tutorial-card {

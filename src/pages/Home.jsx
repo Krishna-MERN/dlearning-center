@@ -5,7 +5,7 @@ import "./styles/Home.css";
 import CommentForm from "../components/CommentForm";
 
 const technologies = [
-  {  name: "React", color: "#61DAFB" },
+  {  name: "Reactpage", color: "#61DAFB" },
   { name: "ComputerShortcuts", color: "#f89820" },
   { name: "VScodeshortcut", color: "#3776AB" },
   { name: "Express", color: "#3C873A" },
@@ -23,7 +23,7 @@ const technologies = [
 
     { name: "Dart", color: "#61DAFB" },
     { name: "JSON", color: "#f89820" },
-    { name: "HTML", color: "#3776AB" },
+    { name: "HTMLpage", color: "#3776AB" },
     { name: "GrapgQL", color: "#3C873A" },
     { name: "C++", color: "#4DB33D" },
     { name: "Java", color: "#E34C26" },
